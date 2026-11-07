@@ -24,13 +24,13 @@ const BOT1 = {
 
   // 👇 AMOUNT SETTINGS
   firstAmount: "0.1",
-  secondAmount: "5",
+  secondAmount: "4",
 
   // 👇 TIME SETTINGS
   runTimeGapMin: 60,    // Run Time Minimum Gap (seconds)
   runTimeGapMax: 120,   // Run Time Maximum Gap (seconds)
-  secondMsgDelayMin: 60, // Second Message Minimum Delay (seconds)
-  secondMsgDelayMax: 90, // Second Message Maximum Delay (seconds)
+  secondMsgDelayMin: 90, // Second Message Minimum Delay (seconds)
+  secondMsgDelayMax: 120, // Second Message Maximum Delay (seconds)
 
   // 👇 USER ID REPEAT SETTINGS - YAHAN CHANGE KARO
   repeatTimeMin: 300,   // Minimum Repeat Time (seconds) = 5 Minutes
@@ -126,7 +126,7 @@ function buildMessage1(userId, amount, runTime, trackTime) {
   return (
 `<b>Conversation Count 💝</b>
 
-<b>🎁 Offer Name - PolicyBazar</b>
+<b>🎁 Offer Name - HAPPY YOU</b>
 
 <b>User Id : ${userId}</b>
 <b>User Amount : ₹${amount}</b>
