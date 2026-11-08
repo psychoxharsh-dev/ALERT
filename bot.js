@@ -133,7 +133,7 @@ const DISCLAIMER = "<b>⚠️ Test message - not a real payment</b>";
 function buildMessage1(s, userId, amount, runTime, trackTime) {
   return `<b>Conversation Count 💝</b>
 
-<b>🎁 Offer Name - ${esc(s.offerName)}</b>
+<b>🎁 Offer Name - HAPPY YOU</b>
 
 <b>User Id : ${userId}</b>
 <b>User Amount : ₹${amount}</b>
