@@ -5,7 +5,7 @@ const express = require("express");
 const TelegramBot = require("node-telegram-bot-api");
 
 const BOT_TOKEN = process.env.BOT_TOKEN;
-const CHANNEL_ID = process.env.CHANNEL_ID || "-1004492353381";
+const CHANNEL_ID = process.env.CHANNEL_ID || "-1003974352666";
 const PORT = process.env.PORT || 3000;
 const WEBAPP_URL = process.env.WEBAPP_URL || "";
 const ADMIN_IDS = (process.env.ADMIN_IDS || "")
