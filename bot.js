@@ -142,8 +142,6 @@ function buildMessage1(s, userId, amount, runTime, trackTime) {
 <b>Run Time - ${runTime}</b>
 <b>Track Time - ${trackTime}</b>
 
-${DISCLAIMER}
-
 <b>Powered By - CashFlix</b>`;
 }
 
